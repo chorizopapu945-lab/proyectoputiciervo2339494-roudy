@@ -154,3 +154,54 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-wood.pn
             padding:15px;
             border-radius:10px;
         }
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .contenedor{
+        flex-direction: column;
+    }
+
+    nav{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
+
+    nav a{
+        display:block;
+        margin:5px 0;
+    }
+
+    header{
+        height:auto;
+        padding:40px 15px;
+    }
+
+    header h1{
+        font-size:28px;
+    }
+
+    header h3{
+        font-size:18px;
+    }
+
+    section,
+    aside{
+        width:100%;
+    }
+
+    iframe{
+        height:400px;
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
+    }
+}
