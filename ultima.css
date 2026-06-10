@@ -1,0 +1,156 @@
+details{
+    background:rgba(255,255,255,0.1);
+    padding:12px;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+summary{
+    cursor:pointer;
+    color:#ffd54f;
+    font-size:18px;
+}
+
+details ul{
+    margin-top:10px;
+    margin-left:20px;
+}
+
+details li{
+    margin-bottom:8px;
+}
+
+ *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+           background-color: #00458f;
+
+            color:white;
+        }
+
+        header{
+             background-image:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("https://www.valenciaadicciones.es/wp-content/uploads/adicciones-tipos.jpg");
+            background-size:cover;
+            background-position-y:-320px ;
+            height:250px;
+            text-align:center;
+            padding-top:80px;
+            text-shadow:2px 2px 5px black;
+        }
+
+        nav{
+background-color: #001c8a;
+background-image: url("https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png");
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+            background:rgba(0,0,0,0.6);
+            padding:10px 15px;
+            border-radius:10px;
+        }
+
+        nav a:hover{
+            background:#ff9800;
+        }
+
+        .contenedor{
+            display:flex;
+            flex-wrap:wrap;
+        }
+
+        section{
+            flex:3;
+            padding:25px;
+background-color: #00458f;
+background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+        }
+
+        section article{
+            background:rgba(0,0,0,0.75);
+            padding:20px;
+            border-radius:15px;
+            margin-bottom:20px;
+        }
+
+        aside{
+            flex:1;
+            padding:20px;
+background-color: #020036;
+background-image: url("https://www.transparenttextures.com/patterns/candyhole.png");
+            border-radius:15px;
+
+        }
+
+        aside div{
+            background:rgba(0,0,0,0.75);
+            padding:15px;
+            border-radius:15px;
+        }
+
+        h2{
+            color:#ffd54f;
+            margin-bottom:10px;
+        }
+
+        p{
+            text-align:justify;
+            line-height:1.6;
+        }
+
+        iframe{
+            width:100%;
+            height:500px;
+            border:none;
+            margin-top:15px;
+            border-radius:10px;
+        }
+
+       .descarga {
+            display: inline-block;
+            background-color: #bb1985;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.1em;
+            text-align: center;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .descarga:hover{
+            background:#2e7d32;
+        }
+footer,
+footer *{
+    text-align:center;
+}
+        footer{
+background-color: #000000;
+background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+            padding:25px;
+            
+        }
+
+        footer div{
+            background:rgba(0,0,0,0.75);
+            text-align: center;
+            padding:15px;
+            border-radius:10px;
+        }
